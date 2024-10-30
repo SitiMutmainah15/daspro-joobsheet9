@@ -21,7 +21,10 @@ public class SearchNilai21 {
                 indeks = i;
                 System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (indeks + 1));
                 break;
-            }
+            } 
         }
+        if (indeks == -1) {
+            System.out.println("Nilai yang dicari tidak ditemukan.");
     }
+}
 }
