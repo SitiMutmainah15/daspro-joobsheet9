@@ -23,7 +23,5 @@ public class ArrayRataNilai21 {
         rata2 = total / nilaiMhs.length;
         System.out.println("Rata-rata nilai = " + rata2);
         System.out.println("Jumlah mahasiswa yang lulus = " + lulus);
-
-        sc.close();
     }
 }
